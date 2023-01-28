@@ -1,11 +1,20 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>Site web test de Louis Lepers</h1>
-  <p>Bienvenue sur mon premier site web :)</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-  <h1> Il n'y a pas encore grand chose ici mais cela viendera <h1>
-  <h1> j'aime bien les teckels <h1>
+    <center>
+        <a style="cursor: pointer; padding-left: 10%" onclick="return load();">new game</a>
+        <div id="canvas">
+            <h2>score : <div style="display: inline;" id="score"></div></h2> 
+        </div>
+        <b>HOW TO PLAY</b>Use your arrow keys to move the tiles.
+    </center>
+    <script src="game.js"></script>
 </body>
- 
 </html>
